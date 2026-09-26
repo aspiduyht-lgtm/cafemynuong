@@ -1,0 +1,18 @@
+## Ignore Visual Studio / .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore IDE files
+.vs/
+.vscode/
+
+## SQLite temporary files (keep cafe.db as template seed)
+*.db-shm
+*.db-wal
+
+## Logs & caches
+*.log
